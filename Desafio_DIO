@@ -19,6 +19,7 @@ class Atleta(Base):
 
     # Relacionamento com tabela de treinos (opcional)
     # treinos = relationship("Treino", backref="atleta")
+
 #Configurando o Banco de Dados:
 
 from` sqlalchemy import create_engine
